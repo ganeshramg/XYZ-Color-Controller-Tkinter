@@ -1,6 +1,8 @@
 # XYZ-Color-Controller-Tkinter
 This is a Tkinter App, that let's you change color when you adjust the slider positions.
 
+![](xyz.gif)
+
 ## UI
 
 Has three sliders and two rectangular area. First slider below the black rectangle is **X Slider** and controls **RED** in the RGB spectrum, the one right to the black rectangle is the **Y Slider** and controls the **Green** in RGB and the bottom most slider is **Z Slider** and controls the **Blue** color in RGB. The **Black Rectangle on the left translates the mouse position to X and Y values, that is given to the sliders X and Y respectively.** The area on the right displays the current RGB color combination.
