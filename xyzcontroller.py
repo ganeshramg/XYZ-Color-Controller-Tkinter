@@ -38,6 +38,7 @@ def show(event):                                            # This method sets B
     B = getHex(hex(Z.get()))
     bg.set('#' + R + G + B)
     rightframe.config(bg=bg.get())
+    color_label.config(text=bg.get())
 
 # Rectangular control area
 rect = Canvas(leftframe,height=200,width=200,bg='#000000',cursor='circle')
@@ -62,5 +63,9 @@ z_slider = Scale(leftframe,orient=HORIZONTAL,showvalue=0,length=200,variable=Z,f
 z_slider.place(x=25,y=300)
 z_slider.bind('<Button-1>',show)
 z_slider.bind('<B1-Motion>',show)
+
+# Color Hex code
+color_label = Label(leftframe,font='calibri 20 bold',fg='#000000',bg='#FFFFFF')
+color_label.place(x=75,y=320)
 
 root.mainloop()
