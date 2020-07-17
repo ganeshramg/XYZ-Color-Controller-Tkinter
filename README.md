@@ -24,4 +24,8 @@ The app with proper geometry and widgets is initialized. **X,Y,Z** are three var
 1. Python 3.7 or Above
 2. Tkinter
 
+# Update
+## Hex Code Label
+![](xyzupdate.PNG)
+
 # Thank You
